@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="الموقع الشخصي لآشور الثاني — مقدام مثنى. رؤية في الوحدة والتفكير والفعل، وطموح لخدمة العراق بالمعرفة والعمل المدني السلمي.">
+  <meta name="theme-color" content="#11110f">
+  <title>آشور الثاني | مقدام مثنى</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&display=swap');
+    :root{--bg:#11110f;--panel:#191916;--gold:#c7a66a;--gold2:#e3d0a4;--ink:#eee9df;--muted:#aaa397;--line:rgba(199,166,106,.23)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cairo',sans-serif;line-height:1.9}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,90%);margin:auto}
+    header{position:absolute;top:0;left:0;right:0;z-index:5;border-bottom:1px solid rgba(255,255,255,.08)}
+    nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-family:'Amiri',serif;font-size:25px;color:var(--gold2);letter-spacing:.3px}
+    .links{display:flex;gap:25px;color:#d4cec2;font-size:13px}.links a:hover{color:var(--gold2)}
+    .hero{min-height:760px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 18% 44%,rgba(151,111,53,.19),transparent 38%),linear-gradient(115deg,#11110f 20%,#191812 100%)}
+    .hero:before{content:"𒀭";position:absolute;left:7%;top:18%;font-size:clamp(190px,33vw,430px);font-family:serif;color:rgba(199,166,106,.055);line-height:1}
+    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%,rgba(0,0,0,.22));pointer-events:none}
+    .hero-inner{position:relative;z-index:1;padding-top:100px;max-width:760px}
+    .eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;font-weight:700}
+    h1{font-family:'Amiri',serif;font-size:clamp(64px,11vw,118px);line-height:1.08;margin:18px 0 5px;color:var(--gold2);font-weight:700}
+    .subtitle{font-size:clamp(18px,3vw,25px);color:#e7e0d2;margin:0 0 22px}
+    .intro{max-width:650px;color:#bdb6a9;font-size:16px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+    .btn{padding:11px 23px;border:1px solid var(--gold);font-size:13px;transition:.2s}
+    .btn.primary{background:var(--gold);color:#171510;font-weight:800}.btn:hover{transform:translateY(-2px);background:var(--gold2);color:#171510}
+    .scroll{position:absolute;bottom:28px;right:5%;color:#8f887c;font-size:11px;letter-spacing:2px}
+    section{padding:105px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+    .section-kicker{color:var(--gold);font-size:11px;letter-spacing:3px;font-weight:700}
+    h2{font-family:'Amiri',serif;font-size:clamp(36px,5vw,54px);font-weight:700;margin:7px 0 20px;color:var(--gold2);line-height:1.35}
+    .lead{font-size:18px;color:#ddd5c8;max-width:800px}
+    .bodycopy{color:var(--muted);max-width:820px;font-size:15px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px}
+    .card{background:linear-gradient(145deg,#1d1c18,#171714);border:1px solid var(--line);padding:26px;min-height:205px}
+    .num{font-family:'Amiri',serif;color:var(--gold);font-size:35px}
+    .card h3{font-family:'Amiri',serif;font-size:25px;color:var(--gold2);margin:3px 0 9px}
+    .card p{color:var(--muted);font-size:14px;margin:0}
+    .quote{border-right:2px solid var(--gold);padding:10px 25px;margin:35px 0 0;font-family:'Amiri',serif;font-size:28px;color:#e4d5b5;max-width:800px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:start}
+    .principles{list-style:none;padding:0;margin:25px 0}.principles li{padding:13px 0;border-bottom:1px solid var(--line);color:#d4ccbf}
+    .principles li:before{content:"—";color:var(--gold);margin-left:12px}
+    .closing{background:radial-gradient(ellipse at 80% 20%,rgba(151,111,53,.15),transparent 45%),#151511;text-align:center}
+    .closing h2{max-width:760px;margin:12px auto}.closing p{max-width:680px;margin:0 auto;color:var(--muted)}
+    footer{padding:30px 0;color:#817a70;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:760px){.links{gap:12px;font-size:11px}.links a:nth-child(2){display:none}.hero{min-height:700px}.grid,.split{grid-template-columns:1fr}.grid{gap:12px}section{padding:75px 0}.card{min-height:0}.brand{font-size:21px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap"><nav>
+    <a class="brand" href="#home">آشور الثاني</a>
+    <div class="links"><a href="#story">الحكاية</a><a href="#vision">الرؤية</a><a href="#ambition">الطموح</a><a href="#principles">المبادئ</a></div>
+  </nav></div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap"><div class="hero-inner">
+      <div class="eyebrow">مقدام مثنى · رؤية شخصية</div>
+      <h1>آشور الثاني</h1>
+      <p class="subtitle">من السؤال إلى الفعل؛ ومن الانتماء إلى المسؤولية.</p>
+      <p class="intro">أنا مقدام مثنى. اخترتُ اسم «آشور الثاني» عنواناً لهويةٍ تستلهم من تاريخ بلاد الرافدين معنى البناء، لا استعادة الماضي؛ وتبحث عن طريقٍ يجعل الانتماء إلى العراق مسؤوليةً تُمارَس، لا شعاراً يُردَّد.</p>
+      <div class="actions"><a class="btn primary" href="#story">اقرأ حكايتي</a><a class="btn" href="#vision">ما الذي أؤمن به؟</a></div>
+    </div></div>
+    <div class="scroll">اكتشف الفكرة ↓</div>
+  </section>
+
+  <section id="story"><div class="wrap">
+    <div class="section-kicker">01 / البداية</div>
+    <h2>كيف بدأت الحكاية؟</h2>
+    <p class="lead">لم تبدأ الحكاية من منصبٍ أبحث عنه، بل من سؤالٍ لم أجد له جواباً مقنعاً: لماذا يبقى الحديث عن إصلاح العراق أكبر من العمل الذي يُبذل من أجله؟</p>
+    <p class="bodycopy">مع الوقت، تحوّل هذا السؤال إلى اهتمام بالتاريخ والفكر والشأن العام، ثم إلى محاولة لصناعة مساحةٍ تتّسع لفكرة العراق بوصفه وطناً لجميع أبنائه. لم يكن المقصود أن أقدّم نفسي باعتباري صاحب الإجابة النهائية؛ بل أن أبدأ بالتعلّم، وأن أختبر الأفكار في الواقع، وأن أتحمّل مسؤولية ما أعلنه.</p>
+    <p class="bodycopy">جاء اسم «آشور الثاني» من صلتي بتاريخ بلاد الرافدين ورموزه الحضارية. هو اسمٌ اخترته لهويةٍ معاصرة، لا ادّعاءٌ بامتدادٍ تاريخي أو سلطةٍ مستمدّة من الماضي.</p>
+    <div class="quote">«لا تطالب بالإصلاح بل تعمل على الإصلاح»</div>
+  </div></section>
+
+  <section id="vision"><div class="wrap">
+    <div class="section-kicker">02 / الفكرة</div>
+    <h2>لماذا أعمل؟</h2>
+    <p class="lead">لأن العراق لا يحتاج إلى مزيدٍ من الأصوات التي تصف أزماته فحسب؛ بل إلى مواطنين يتعلّمون، وينظّمون جهودهم، ويحوّلون الأفكار إلى أعمالٍ نافعة.</p>
+    <div class="grid">
+      <article class="card"><div class="num">01</div><h3>الوحدة</h3><p>عراقٌ لا تُختزل هويته في طائفةٍ أو قومية، ولا يُعامل فيه الاختلاف بوصفه تهديداً. المواطنة هي الأساس، والكرامة حقّ للجميع.</p></article>
+      <article class="card"><div class="num">02</div><h3>التفكير</h3><p>التحقّق قبل التصديق، والسؤال قبل الترديد، والاحتكام إلى المعرفة والحجة بدلاً من التعصّب والانفعال.</p></article>
+      <article class="card"><div class="num">03</div><h3>الفعل</h3><p>قيمة الفكرة تظهر في أثرها: مبادرةٌ بيئية، أو عملٌ تطوعي، أو مطالبةٌ مدنية مسؤولة، أو معرفةٌ تُتاح للناس.</p></article>
+    </div>
+  </div></section>
+
+  <section id="ambition"><div class="wrap split">
+    <div><div class="section-kicker">03 / إلى أين؟</div><h2>طموحي للعراق</h2>
+      <p class="lead">أن أكون جزءاً من جيلٍ لا يكتفي بوراثة مشكلات بلده، بل يكتسب الأدوات اللازمة لمعالجتها.</p>
+      <p class="bodycopy">أطمح إلى بناء تجربةٍ مدنية منظّمة، تبدأ بخطواتٍ صغيرة قابلة للقياس، وتتوسّع بالثقة والكفاءة والالتزام بالقانون. وأطمح على المدى البعيد إلى خدمة العراق في المجال العام، حيث تُقاس المسؤولية بالنتائج، لا بالألقاب.</p>
+    </div>
+    <div><div class="section-kicker">ما الذي أريد بناءه؟</div>
+      <ul class="principles">
+        <li>مجتمعٌ يقدّم المواطنة على الانقسام.</li>
+        <li>تعليمٌ يحترم عقل الطالب ويمنحه فرصةً حقيقية.</li>
+        <li>مؤسساتٌ تُسأل عن قراراتها وتُحاسَب وفق القانون.</li>
+        <li>شبابٌ يمتلك المعرفة والانضباط وروح المبادرة.</li>
+        <li>عملٌ تطوعيّ مستمرّ يحسّن حياة الناس والبيئة.</li>
+      </ul>
+    </div>
+  </div></section>
+
+  <section id="principles"><div class="wrap">
+    <div class="section-kicker">04 / الطريق</div><h2>مبادئ لا أريد تجاوزها</h2>
+    <div class="grid">
+      <article class="card"><h3>السلمية والقانون</h3><p>العمل العام الذي أؤمن به مدني وسلمي، ويحترم القانون وحقوق الآخرين.</p></article>
+      <article class="card"><h3>الصدق والشفافية</h3><p>لا أقدّم الوعد على أنه إنجاز، ولا أنسب إلى نفسي عملاً لم أقم به. الثقة تُبنى بالوضوح.</p></article>
+      <article class="card"><h3>المراجعة والتعلّم</h3><p>الفكرة ليست مقدّسة؛ يمكن نقدها وتصحيحها وتطويرها متى ظهرت معرفةٌ أفضل.</p></article>
+    </div>
+    <p class="bodycopy" style="margin-top:30px">هذا الموقع مساحةٌ للتعريف بمساري وأفكاري، وليس ادّعاءً بامتلاك حلولٍ جاهزة. ما زلت في بداية الطريق، وأرى أن الاعتراف بذلك جزءٌ من الجدية، لا نقطة ضعف.</p>
+  </div></section>
+
+  <section class="closing"><div class="wrap">
+    <div class="section-kicker">كلمة أخيرة</div>
+    <h2>المستقبل لا يُبنى بالحنين وحده، بل بما نقرّر أن نفعله اليوم.</h2>
+    <p>أنا مقدام مثنى — آشور الثاني. أؤمن أن قيمة الاسم لا تأتي من صوته، بل من العمل الذي يتركه خلفه.</p>
+  </div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 مقدام مثنى · آشور الثاني</span><span>الوحدة | التفكير | الفعل</span></div></footer>
+</body></html>
